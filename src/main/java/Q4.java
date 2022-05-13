@@ -8,10 +8,6 @@ public class Q4 {
         // 자동 import alt + enter
 
         int n = scan.nextInt();
-//        int m = scan.nextInt();
-
-//        int row = 0;
-//        int column = 0;
 
 
         // n과 m을 배열의 length 값으로 만들어야 함.
@@ -23,9 +19,12 @@ public class Q4 {
             String rowStr = Integer.toString(row); // int타입을 string타입으로 변환
             System.out.println(rowStr.replaceAll("", "*"));
 
-
-
-
+//            출력값
+//            *0*
+//            *1*
+//            *2*
+//            *3*
+//            *4*
         }
 
 
