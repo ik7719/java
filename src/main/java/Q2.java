@@ -5,14 +5,17 @@ public class Q2 {
 
         Scanner scan = new Scanner(System.in);
 
+        String result = "";
+
         double b = scan.nextInt();
 
         double a = b / 2 ;
 
-        if(a == 0){
-            System.out.println("odd");
+        if(a % 2 == 0){
+            result = "Even";
         } else {
-            System.out.println("Even");
+            result = "Odd";
         }
+        System.out.println(result);
     }
 }
