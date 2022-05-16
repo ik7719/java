@@ -1,22 +1,29 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class Q20 {
+
+    public static String solution(){
+
+        String[] participant = new String[] {"leo", "kiki", "eden", "vinko"};
+        String[] completion = new String[] {"leo", "kiki", "eden"};
+
+        Arrays.sort(participant);
+        Arrays.sort(completion);
+
+        int i;
+
+        for(i = 0; i < completion.length; i++) {
+            if(!participant[i].equals(completion[i]) ){
+                return participant[i];
+            }
+        }
+        return participant[i];
+    }
     public static void main(String[] args){
 
-        List<String> participant = new ArrayList<String>();
-        participant.add("leo");
-        participant.add("kiki");
-        participant.add("eden");
+       System.out.println(solution());
 
-        List<String> completion = new ArrayList<String>();
-        completion.add("leo");
-        completion.add("kiki");
-
-        participant.removeAll(completion);
-
-        System.out.println(participant);
     }
 }
