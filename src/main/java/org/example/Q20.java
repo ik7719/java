@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Arrays;
 
-public class Q20 {
+public class Q20 { //완료
 
     public static String solution(){
 
