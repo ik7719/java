@@ -1,4 +1,4 @@
-package org.example;
+package new_prac;
 
 public class Q1_prac {
     public static void main(String[] args){
