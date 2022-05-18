@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22cd91e-ae8c-4481-a699-7c63c591e0fc" name="변경" comment="버스 최초 상태 추가">
+    <list default="true" id="c22cd91e-ae8c-4481-a699-7c63c591e0fc" name="변경" comment="주유량에 따른 버스 상태 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/workingSpace/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workingSpace/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/workingSpace/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workingSpace/Passenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/workingSpace/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workingSpace/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652834045951</updated>
-      <workItem from="1652834047455" duration="12060000" />
+      <workItem from="1652834047455" duration="14961000" />
     </task>
     <task id="LOCAL-00001" summary="project_bus">
       <created>1652836799885</created>
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652850543529</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="주유량에 따른 버스 상태 변경">
+      <created>1652854232635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652854232635</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +143,7 @@
     <MESSAGE value="project_bus" />
     <MESSAGE value="Passenger class, test class 생성" />
     <MESSAGE value="버스 최초 상태 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="버스 최초 상태 추가" />
+    <MESSAGE value="주유량에 따른 버스 상태 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="주유량에 따른 버스 상태 변경" />
   </component>
 </project>

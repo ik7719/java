@@ -21,9 +21,7 @@ public class Test {
 
         Passenger pas1 = new Passenger("Cho");
 
-        bus5705.checkBus();
-
-        pas1.takeBus(bus5705); // pas1. 버스에 탑승
+        pas1.takeBus(bus5705); // pas1. 버스 탑승 요청
 
         pas1.showInfo(); // pas1 승객 정보
         bus5705.showInfo(); // 버스 정보
