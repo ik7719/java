@@ -15,16 +15,18 @@ public class Test {
         UUID uuid = new UUID(start.hashCode(), ((long) center.hashCode() << 32) | end.hashCode());
         String uuidResult = uuid.toString();
 
-        System.out.println("UUID : "+uuidResult);
+//        System.out.println("UUID : "+uuidResult);
 
         Bus bus5705 = new Bus(5705); // Bus라는 객체 생성를 생성하고 객체를 참고하는 'bus5705'라는 변수 선언
 
         Passenger pas1 = new Passenger("Cho");
 
-        pas1.takeBus(bus5705);
+        bus5705.checkBus();
 
-        pas1.showInfo();
-        bus5705.showInfo(); // shorInfo 함수 실행
+        pas1.takeBus(bus5705); // pas1. 버스에 탑승
+
+        pas1.showInfo(); // pas1 승객 정보
+        bus5705.showInfo(); // 버스 정보
 
 
 
