@@ -5,9 +5,12 @@ import java.util.UUID;
 public class Bus {
     int Num; // 번호
     double oil = 11; // 주유량
-    int passenger = 0; // 탑승객
+    int passenger; // 탑승객
+    int pasNow = 0;
     String run; // 운행중
     String stop; // 미운행
+    String pasPos; // 탑승 가능
+    String pasImp; // 탑승 불가능
 
     public Bus(int num){
         this.Num = num;
@@ -24,14 +27,19 @@ public class Bus {
     }
 
     public void take(int passenger){ // 'this.'가 뭔지 다시 찾아봐.
-        passenger++;
+        pasNow += passenger;
+        System.out.println(pasNow);
     }
 
-    public boolean checkPas(){
-        if(passenger < 5){
-            return true;
+    public String checkPas(){
+        if(pasNow < 5){
+//            return true;
+            pasPos = "탑승 가능";
+            return pasPos;
         } else {
-            return false;
+//            return false;
+            pasImp = "탑승 불가능";
+            return pasImp;
         }
     }
 

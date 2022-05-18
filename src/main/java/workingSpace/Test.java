@@ -1,5 +1,6 @@
 package workingSpace;
 
+import java.util.Arrays;
 import java.util.UUID;
 
 public class Test {
@@ -25,13 +26,14 @@ public class Test {
         Passenger pas4 = new Passenger("jo");
         Passenger pas5 = new Passenger("code");
 
-        pas1.takeBus(bus5705); // pas1. 버스 탑승 요청
-        pas2.takeBus(bus5705);
-        pas3.takeBus(bus5705);
-        pas4.takeBus(bus5705);
-        pas5.takeBus(bus5705);
+        for (Passenger passenger1 : Arrays.asList(pas1, pas2, pas3, pas4)) {
+            passenger1.takeBus(bus5705); // 버스 탑승 요청
+        }
 
-        pas1.showInfo(); // pas1 승객 정보
+        for (Passenger passenger : Arrays.asList(pas1, pas2, pas3, pas4, pas5)) {
+            passenger.showInfo(); // 승객 정보
+        }
+
         bus5705.showInfo(); // 버스 정보
 
 

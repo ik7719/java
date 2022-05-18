@@ -8,7 +8,7 @@ public class Passenger {
     }
 
     public boolean takeBus(Bus bus){
-        if(bus.checkBus() == "운행" && bus.checkPas()){ // 확인 완료
+        if(bus.checkBus() == "운행" && bus.checkPas() == "탑승 가능"){ // 확인 완료
             bus.take(1);
             return true;
         } else {
