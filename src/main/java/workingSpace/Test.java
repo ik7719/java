@@ -35,8 +35,5 @@ public class Test {
         }
 
         bus5705.showInfo(); // 버스 정보
-
-
-
     }
 }

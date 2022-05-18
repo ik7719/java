@@ -4,8 +4,9 @@ import java.util.UUID;
 
 public class Bus {
     int Num; // 번호
-    double oil = 11; // 주유량
+    double oil = 9; // 주유량
     int passenger; // 탑승객
+    int pasMax = 4;
     int pasNow = 0;
     String run; // 운행중
     String stop; // 미운행
@@ -27,33 +28,37 @@ public class Bus {
     }
 
     public void take(int passenger){ // 'this.'가 뭔지 다시 찾아봐.
-        pasNow += passenger;
-        System.out.println(pasNow);
+        if(pasNow <= pasMax){
+            pasNow += passenger;
+        }
     }
 
     public String checkPas(){
-        if(pasNow < 5){
-//            return true;
+        if(pasNow <= pasMax){
             pasPos = "탑승 가능";
             return pasPos;
         } else {
-//            return false;
             pasImp = "탑승 불가능";
             return pasImp;
         }
     }
 
-    public int getNum(){
+    public int getNum(){ // 버스 번호 get
         return Num;
     }
 
-    public int getPassenger(){
-        return passenger;
+    public int getPassenger(){ // 탑승한 인원
+        if(checkBus() == stop){
+            pasNow = 0;
+            System.out.println("주유가 필요합니다.");
+            return pasNow;
+        }
+        return pasNow;
     }
 
     public void showInfo(){
         System.out.println("버스 " + this.getNum() + "의 탑승객은 " + this.getPassenger() + "명입니다.");
-        System.out.println("버스 " + this.getNum() + "은 현재 " + this.checkBus() + " 중 입니다.");
+        System.out.println("버스 " + this.getNum() + "의 상태는 현재 " + this.checkBus() + " 입니다.");
     }
 
 }
