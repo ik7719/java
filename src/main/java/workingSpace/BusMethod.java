@@ -1,8 +1,18 @@
 //package workingSpace;
 //
 //public class BusMethod {
-//    public int drive() {
 //
+//    public int inCar() {
+//        int count = 0;
+//
+//        for(int i = 0; i < bus.MaxPassenger; i++){
+//            if(NowPassenger >= MaxPassenger){
+//                System.out.println("더 이상 탑승할 수 없습니다.");
+//                break;
+//            } else {
+//                count += i;
+//            }
+//        }
 //    }
 //    public void method1() { // 매겨변수 X
 //        System.out.println("m1이 실행됨.");
