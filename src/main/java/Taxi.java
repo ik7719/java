@@ -24,18 +24,18 @@ public class Taxi {
     public void drive(){
         if(fuel < 10){
             System.out.println("주유량이 부족해 운행이 불가능합니다.");
-            return;
+            System.exit(0);
         }
-        System.out.println("탑승이 가능합니다.");
     }
 
     public void ride(){
         if(taxiCondition == condition.일반 ){
             taxiCondition = condition.운행중;
             System.out.println("운행을 시작합니다.");
+        } else {
+            System.out.println("탑승 불가");
+            System.exit(0);
         }
-        System.out.println("탑승 불가");
-        return;
     }
 
     public void speedChange(){
