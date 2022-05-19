@@ -30,12 +30,12 @@ public class Taxi {
     }
 
     public void ride(){
-        if(taxiCondition == condition.일반 || fuel < 10){
-            System.out.println("탑승 불가");
-            return;
+        if(taxiCondition == condition.일반 ){
+            taxiCondition = condition.운행중;
+            System.out.println("운행을 시작합니다.");
         }
-        taxiCondition = condition.운행중;
-        System.out.println("운행을 시작합니다.");
+        System.out.println("탑승 불가");
+        return;
     }
 
     public void speedChange(){
