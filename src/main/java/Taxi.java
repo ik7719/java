@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Taxi {
-    private int taxiNumber; //타입 뭘로할까?
+    private int taxiNumber;
     private int fuel;
     private double currentSpeed;
     private String goal;
@@ -10,7 +10,8 @@ public class Taxi {
     private int distanceFee;
     private condition taxiCondition;
 
-    public Taxi(int fuel, double currentSpeed, double distance, double goalDistance, int fee, int distanceFee){
+    public Taxi(int taxiNumber, int fuel, double currentSpeed, double distance, double goalDistance, int fee, int distanceFee){
+        this.taxiNumber = taxiNumber;
         this.fuel = fuel;
         this.currentSpeed = currentSpeed;
         this.goal = "영월";
@@ -31,7 +32,7 @@ public class Taxi {
     public void ride(){
         if(taxiCondition == condition.일반 ){
             taxiCondition = condition.운행중;
-            System.out.println("운행을 시작합니다.");
+            System.out.println(taxiNumber + "번 운행을 시작합니다.");
         } else {
             System.out.println("탑승 불가");
             System.exit(0);

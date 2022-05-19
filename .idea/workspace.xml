@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdd5d79-ff31-43f1-b63e-bf79b06e50cf" name="변경" comment="요구사항 추가 - 조건이 맞을 때">
+    <list default="true" id="1cdd5d79-ff31-43f1-b63e-bf79b06e50cf" name="변경" comment="system.exit(0)로 조건 맞지 않을 때 종료">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Taxi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652919663798</updated>
-      <workItem from="1652919665236" duration="2889000" />
+      <workItem from="1652919665236" duration="3257000" />
     </task>
     <task id="LOCAL-00001" summary="택시 세팅">
       <created>1652920221480</created>
@@ -99,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652922264140</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="조건이 맞지 않을 때 안되는 오류">
+      <created>1652922593334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652922593334</updated>
+    </task>
+    <task id="LOCAL-00005" summary="system.exit(0)로 조건 맞지 않을 때 종료">
+      <created>1652922877214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652922877214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +135,8 @@
     <MESSAGE value="택시 세팅" />
     <MESSAGE value="정보 추가" />
     <MESSAGE value="요구사항 추가 - 조건이 맞을 때" />
-    <option name="LAST_COMMIT_MESSAGE" value="요구사항 추가 - 조건이 맞을 때" />
+    <MESSAGE value="조건이 맞지 않을 때 안되는 오류" />
+    <MESSAGE value="system.exit(0)로 조건 맞지 않을 때 종료" />
+    <option name="LAST_COMMIT_MESSAGE" value="system.exit(0)로 조건 맞지 않을 때 종료" />
   </component>
 </project>
