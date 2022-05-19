@@ -6,7 +6,8 @@ public class Q28 {
         Scanner scan = new Scanner(System.in);
         String x = scan.nextLine(); // index값을 위해 string으로 입력받는다.
 
-        String result = "";
+        String str = "";
+//        long str = 0;
 
         ArrayList list = new ArrayList(); // list
 
@@ -14,6 +15,11 @@ public class Q28 {
             list.add(x.charAt(i));
         }
 
-        System.out.println(list);
+        for (int j = 0; j < x.length(); j++) {
+            str += list.get(j);
+            // 하나씩 뽑아내는데 정수로 바꿔주고 뽑아야 돼.
+        }
+
+        System.out.println(str);
     }
 }
