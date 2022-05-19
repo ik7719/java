@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50c828c4-9016-4664-bf54-e8ce61aaf4af" name="변경" comment="Q28 하샤드 수">
+    <list default="true" id="50c828c4-9016-4664-bf54-e8ce61aaf4af" name="변경" comment="String에서 int로 변경 필요">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q18.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Q28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q28.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Q28">
+  <component name="RunManager" selected="애플리케이션.Q18">
+    <configuration name="Q17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q17" />
+      <module name="pragrammers_new.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q18" />
+      <module name="pragrammers_new.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q28" />
       <module name="pragrammers_new.main" />
@@ -82,6 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Q18" />
+        <item itemvalue="애플리케이션.Q17" />
         <item itemvalue="애플리케이션.Q28" />
         <item itemvalue="Gradle.pragrammers_new" />
       </list>
@@ -95,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652927851903</updated>
-      <workItem from="1652927853347" duration="2734000" />
+      <workItem from="1652927853347" duration="5034000" />
     </task>
     <task id="LOCAL-00001" summary="Q28 하샤드 수">
       <created>1652928084644</created>
@@ -111,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652928221073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="String에서 int로 변경 필요">
+      <created>1652935630699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652935630699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Q28 하샤드 수" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q28 하샤드 수" />
+    <MESSAGE value="String에서 int로 변경 필요" />
+    <option name="LAST_COMMIT_MESSAGE" value="String에서 int로 변경 필요" />
   </component>
 </project>
